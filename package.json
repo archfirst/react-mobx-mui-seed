@@ -5,7 +5,6 @@
   "main": "index.js",
   "author": "Naresh Bhatia",
   "license": "MIT",
-  "homepage": "https://github.com/archfirst/react-mobx-mui-seed",
   "repository": {
     "type": "git",
     "url": "https://github.com/archfirst/react-mobx-mui-seed.git"
@@ -90,21 +89,6 @@
       "json",
       "web.jsx",
       "jsx"
-    ]
-  },
-  "babel": {
-    "presets": [
-      [
-        "es2015",
-        {
-          "modules": false
-        }
-      ],
-      "react",
-      "stage-1"
-    ],
-    "plugins": [
-      "transform-decorators-legacy"
     ]
   },
   "eslintConfig": {
