@@ -1,7 +1,15 @@
 {
   "name": "react-mobx-mui-seed",
+  "description": "Seed Project for React + MobX + Material UI",
   "version": "0.1.0",
-  "private": true,
+  "main": "index.js",
+  "author": "Naresh Bhatia",
+  "license": "MIT",
+  "homepage": "https://github.com/archfirst/react-mobx-mui-seed",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/archfirst/react-mobx-mui-seed.git"
+  },
   "devDependencies": {
     "autoprefixer": "7.1.1",
     "babel-core": "6.25.0",
