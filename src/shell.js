@@ -4,14 +4,14 @@ import { Route, Switch, withRouter } from 'react-router-dom';
 import { HomePage } from './features';
 // import DevTools from 'mobx-react-devtools';
 
-const styleSheet = createStyleSheet('Shell', (theme) => ({
+const styleSheet = createStyleSheet('Shell', theme => ({
     '@global': {
         html: {
             height: '100%',
-            boxSizing: 'border-box',
+            boxSizing: 'border-box'
         },
         '*, *:before, *:after': {
-            boxSizing: 'inherit',
+            boxSizing: 'inherit'
         },
         body: {
             height: '100%',
@@ -29,23 +29,22 @@ const styleSheet = createStyleSheet('Shell', (theme) => ({
             WebkitOverflowScrolling: 'touch'
         },
         main: {
-            height: '100%',
+            height: '100%'
         }
     },
     root: {
-        height: '100%',
+        height: '100%'
     }
 }));
 
 class Shell extends React.Component {
-
     render() {
         const { classes } = this.props;
 
         return (
             <div className={classes.root}>
                 <Switch>
-                    <Route exact path="/" component={ HomePage } />
+                    <Route exact path="/" component={HomePage} />
                 </Switch>
                 {/* <DevTools position={{top: 46, left: 25}} /> */}
             </div>
