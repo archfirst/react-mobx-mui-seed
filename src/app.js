@@ -28,7 +28,9 @@ class App extends React.Component {
         const theme = createMuiTheme({ palette, typography });
 
         if (!styleManager) {
-            const themeContext = MuiThemeProvider.createDefaultContext({ theme });
+            const themeContext = MuiThemeProvider.createDefaultContext({
+                theme
+            });
             styleManager = themeContext.styleManager;
         } else {
             styleManager.updateTheme(theme);

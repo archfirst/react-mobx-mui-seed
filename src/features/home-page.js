@@ -56,16 +56,33 @@ class HomePage extends React.Component {
                         <Button raised className={classes.button}>
                             Default
                         </Button>
-                        <Button raised color="primary" className={classes.button}>
+                        <Button
+                            raised
+                            color="primary"
+                            className={classes.button}
+                        >
                             Primary
                         </Button>
-                        <Button raised color="accent" className={classes.button}>
+                        <Button
+                            raised
+                            color="accent"
+                            className={classes.button}
+                        >
                             Accent
                         </Button>
-                        <Button raised color="contrast" className={classes.button}>
+                        <Button
+                            raised
+                            color="contrast"
+                            className={classes.button}
+                        >
                             Contrast
                         </Button>
-                        <Button raised color="accent" disabled className={classes.button}>
+                        <Button
+                            raised
+                            color="accent"
+                            disabled
+                            className={classes.button}
+                        >
                             Disabled
                         </Button>
                         <Button fab color="primary" className={classes.button}>
