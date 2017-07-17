@@ -38,7 +38,6 @@ module.exports = {
         'no-trailing-spaces': 'error',
         'no-underscore-dangle': 'error',
         'no-whitespace-before-property': 'error',
-        quotes: ['error', 'single'],
         semi: ['error', 'always'],
         'semi-spacing': 'error',
         'space-before-blocks': 'error',
