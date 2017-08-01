@@ -1,1 +1,1 @@
-export Titlebar from './basics/titlebar';
+export { Titlebar } from './basics/titlebar';

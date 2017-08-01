@@ -37,7 +37,7 @@ const styleSheet = createStyleSheet('Shell', theme => ({
     }
 }));
 
-class Shell extends React.Component {
+class ShellBase extends React.Component {
     render() {
         const { classes } = this.props;
 
@@ -52,4 +52,4 @@ class Shell extends React.Component {
     }
 }
 
-export default withRouter(withStyles(styleSheet)(Shell));
+export const Shell = withRouter(withStyles(styleSheet)(ShellBase));

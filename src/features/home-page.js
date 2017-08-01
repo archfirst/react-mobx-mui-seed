@@ -33,7 +33,7 @@ const styleSheet = createStyleSheet('HomePage', theme => ({
 }));
 
 @observer
-class HomePage extends React.Component {
+class HomePageBase extends React.Component {
     @observable name = '';
 
     @action
@@ -111,4 +111,4 @@ class HomePage extends React.Component {
     }
 }
 
-export default withStyles(styleSheet)(HomePage);
+export const HomePage = withStyles(styleSheet)(HomePageBase);

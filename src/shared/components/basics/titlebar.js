@@ -5,7 +5,7 @@ import AppBar from 'material-ui/AppBar';
 import Typography from 'material-ui/Typography';
 import Toolbar from 'material-ui/Toolbar';
 
-export default function Titlebar({ children }) {
+export function Titlebar({ children }) {
     return (
         <AppBar position="static">
             <Toolbar>

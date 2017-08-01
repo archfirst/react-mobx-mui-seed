@@ -8,9 +8,9 @@ import createPalette from 'material-ui/styles/palette';
 import createMuiTheme from 'material-ui/styles/theme';
 import createTypography from 'material-ui/styles/typography';
 import { Provider } from 'mobx-react';
-import Shell from './shell';
+import { Shell } from './shell';
 
-class App extends React.Component {
+export class App extends React.Component {
     render() {
         const palette = createPalette({
             primary: blue,
@@ -36,5 +36,3 @@ class App extends React.Component {
         );
     }
 }
-
-export default App;
