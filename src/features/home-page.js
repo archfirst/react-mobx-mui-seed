@@ -1,14 +1,14 @@
 import React from 'react';
 import Button from 'material-ui/Button';
 import TextField from 'material-ui/TextField';
-import { createStyleSheet, withStyles } from 'material-ui/styles';
+import { withStyles } from 'material-ui/styles';
 import Typography from 'material-ui/Typography';
 import AddIcon from 'material-ui-icons/Add';
 import { action, observable } from 'mobx';
 import { observer } from 'mobx-react';
 import { Titlebar } from 'shared/components';
 
-const styleSheet = createStyleSheet('HomePage', theme => ({
+const styles = theme => ({
     root: {
         height: '100%',
         display: 'flex',
@@ -30,7 +30,7 @@ const styleSheet = createStyleSheet('HomePage', theme => ({
     input: {
         margin: theme.spacing.unit
     }
-}));
+});
 
 @observer
 class HomePageBase extends React.Component {
@@ -111,4 +111,4 @@ class HomePageBase extends React.Component {
     }
 }
 
-export const HomePage = withStyles(styleSheet)(HomePageBase);
+export const HomePage = withStyles(styles)(HomePageBase);
